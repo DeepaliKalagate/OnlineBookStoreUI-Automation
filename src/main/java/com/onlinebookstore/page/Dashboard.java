@@ -29,8 +29,8 @@ public class Dashboard extends Browser
     }
 
     //utilization
-    public void clickAddToBag() throws InterruptedException {
-
+    public void clickAddToBag() throws InterruptedException
+    {
         Book6.click();
         Thread.sleep(4000);
         Book15.click();

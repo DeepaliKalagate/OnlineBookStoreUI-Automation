@@ -4,15 +4,14 @@ import com.onlinebookstore.base.Browser;
 import com.onlinebookstore.page.Dashboard;
 import org.testng.annotations.Test;
 
-public class SelectBookTest extends Browser {
+public class SelectBookTest extends Browser
+{
     @Test
-    public void testName() throws InterruptedException {
-
+    public void testName() throws InterruptedException
+    {
         Dashboard  dashboard = new Dashboard(driver);
         Thread.sleep(4000);
         dashboard.clickAddToBag();
         Thread.sleep(4000);
-
     }
-
 }
