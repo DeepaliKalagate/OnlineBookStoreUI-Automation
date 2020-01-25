@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class SelectBookTest extends Browser {
     @Test
-    public void testName() throws InterruptedException {
+    public void givenOnlineBookstore_WhenClickBooks_ThenBookShouldGetSelected() throws InterruptedException {
 
         Dashboard  dashboard = new Dashboard(driver);
         Thread.sleep(4000);
@@ -16,3 +16,4 @@ public class SelectBookTest extends Browser {
     }
 
 }
+

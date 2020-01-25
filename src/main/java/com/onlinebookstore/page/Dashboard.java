@@ -22,6 +22,9 @@ public class Dashboard extends Browser
     @FindBy(xpath="//div[27]//div[1]//div[1]//button[1]")
     private WebElement Book27;
 
+    @FindBy(xpath = "//*[@class='MuiSvgIcon-root iconButton']")
+    private WebElement AddToCart;
+
     //initialization
     public Dashboard(WebDriver driver)
     {
@@ -40,4 +43,10 @@ public class Dashboard extends Browser
         Book27.click();
         Thread.sleep(4000);
     }
+    public void clickOnAddToCart() throws InterruptedException {
+
+        AddToCart.click();
+        Thread.sleep(4000);
+    }
+
 }
