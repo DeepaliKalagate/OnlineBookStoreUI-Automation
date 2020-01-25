@@ -13,14 +13,11 @@ public class Dashboard extends Browser
     private WebElement Book6;
 
 
-    @FindBy(xpath="//div[15]//div[1]//div[1]//button[1]")
+    @FindBy(xpath="//div[6]//div[1]//div[1]//button[1]")
     private WebElement Book15;
 
-    @FindBy(xpath="//div[51]//div[1]//div[1]//button[1]")
-    private WebElement Book51;
-
-    @FindBy(xpath="//div[27]//div[1]//div[1]//button[1]")
-    private WebElement Book27;
+    @FindBy(xpath = "//*[@class='MuiSvgIcon-root iconButton']")
+    private WebElement AddToCart;
 
     //initialization
     public Dashboard(WebDriver driver)
@@ -35,9 +32,11 @@ public class Dashboard extends Browser
         Thread.sleep(4000);
         Book15.click();
         Thread.sleep(4000);
-        Book51.click();
-        Thread.sleep(4000);
-        Book27.click();
+    }
+    public void clickOnAddToCart() throws InterruptedException
+    {
+        AddToCart.click();
         Thread.sleep(4000);
     }
+
 }
