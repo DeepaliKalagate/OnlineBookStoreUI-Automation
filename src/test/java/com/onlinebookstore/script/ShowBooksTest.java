@@ -9,9 +9,11 @@ public class ShowBooksTest extends Browser
     @Test
     public void givenURL_WhenExecute_ThenShouldShowTheHomePage() throws InterruptedException
     {
+        logger.info("Show books test start");
         JavascriptExecutor javascriptExecutor= (JavascriptExecutor) driver;
         Thread.sleep(2000);
         javascriptExecutor.executeScript("window.scrollBy(0,document.body.scrollHeight)");
         Thread.sleep(5000);
+        logger.info("Show books test end");
     }
 }

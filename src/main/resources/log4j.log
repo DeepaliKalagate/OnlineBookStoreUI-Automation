@@ -1,0 +1,22 @@
+2020-01-25 19:46:47,904  INFO [Test worker] Browser:36 - *****URL Loading starting
+2020-01-25 19:46:50,959  WARN [Test worker] Browser:44 - *****Warning message****
+2020-01-25 19:46:50,959 ERROR [Test worker] Browser:45 - ******Error is There****
+2020-01-25 19:46:50,960 DEBUG [Test worker] Browser:47 - ****Debugginfo******
+2020-01-25 19:46:55,965  INFO [Test worker] Browser:13 - **Add to cart test start**
+2020-01-25 19:47:21,327  INFO [Test worker] Browser:20 - **Add to cart test end**
+2020-01-25 19:47:21,445  INFO [Test worker] Browser:57 - ****Driver Close******
+2020-01-25 19:47:21,898  INFO [Test worker] Browser:36 - *****URL Loading starting
+2020-01-25 19:47:25,044  WARN [Test worker] Browser:44 - *****Warning message****
+2020-01-25 19:47:25,044 ERROR [Test worker] Browser:45 - ******Error is There****
+2020-01-25 19:47:25,045 DEBUG [Test worker] Browser:47 - ****Debugginfo******
+2020-01-25 19:47:30,046  INFO [Test worker] Browser:11 - **Dashboard test start**
+2020-01-25 19:47:33,047  INFO [Test worker] Browser:20 - **Dashboard test end**
+2020-01-25 19:47:33,668  INFO [Test worker] Browser:36 - *****URL Loading starting
+2020-01-25 19:47:35,332  WARN [Test worker] Browser:44 - *****Warning message****
+2020-01-25 19:47:35,333 ERROR [Test worker] Browser:45 - ******Error is There****
+2020-01-25 19:47:35,334 DEBUG [Test worker] Browser:47 - ****Debugginfo******
+2020-01-25 19:47:40,335  INFO [Test worker] Browser:10 - **Select book test start**
+2020-01-25 19:47:44,968  INFO [Test worker] Browser:36 - *****URL Loading starting
+2020-01-25 19:47:46,649  WARN [Test worker] Browser:44 - *****Warning message****
+2020-01-25 19:47:46,650 ERROR [Test worker] Browser:45 - ******Error is There****
+2020-01-25 19:47:46,650 DEBUG [Test worker] Browser:47 - ****Debugginfo******

@@ -32,6 +32,14 @@ dependencies {// https://mvnrepository.com/artifact/io.github.bonigarcia/webdriv
     compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.7.1'
 }
 
+dependencies {
+    // https://mvnrepository.com/artifact/log4j/log4j
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
+}
+
+
+
 test{
     useTestNG()
 }

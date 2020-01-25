@@ -1,0 +1,7 @@
+2020-01-25 19:37:35,392  INFO [Test worker] Browser:36 - *****URL Loading starting
+2020-01-25 19:37:38,840  WARN [Test worker] Browser:44 - *****Warning message****
+2020-01-25 19:37:38,842 ERROR [Test worker] Browser:45 - ******Error is There****
+2020-01-25 19:37:38,844 DEBUG [Test worker] Browser:47 - ****Debugginfo******
+2020-01-25 19:37:43,847  INFO [Test worker] Browser:13 - **Add to cart test start**
+2020-01-25 19:38:09,125  INFO [Test worker] Browser:20 - **Add to cart test end**
+2020-01-25 19:38:09,260  INFO [Test worker] Browser:57 - ****Driver Close******

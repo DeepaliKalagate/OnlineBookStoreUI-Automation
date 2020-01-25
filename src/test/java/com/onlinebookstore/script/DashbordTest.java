@@ -8,6 +8,7 @@ public class DashbordTest extends Browser
     @Test
     public void givenURL_WhenExecute_ThenShouldDisplayDashboard()
     {
+        logger.info("**Dashboard test start**");
         try
         {
             Thread.sleep(3000);
@@ -16,5 +17,6 @@ public class DashbordTest extends Browser
         {
             e.printStackTrace();
         }
+        logger.info("**Dashboard test end**");
     }
 }
