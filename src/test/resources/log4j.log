@@ -1,7 +1,6 @@
-2020-01-25 19:50:21,995  INFO [Test worker] Browser:36 - *****URL Loading starting
-2020-01-25 19:50:25,207  WARN [Test worker] Browser:44 - *****Warning message****
-2020-01-25 19:50:25,208 ERROR [Test worker] Browser:45 - ******Error is There****
-2020-01-25 19:50:25,208 DEBUG [Test worker] Browser:47 - ****Debugginfo******
-2020-01-25 19:50:30,215  INFO [Test worker] Browser:11 - **Dashboard test start**
-2020-01-25 19:50:33,216  INFO [Test worker] Browser:20 - **Dashboard test end**
-2020-01-25 19:50:33,333  INFO [Test worker] Browser:57 - ****Driver Close******
+2020-01-26 14:36:15,009  INFO [Test worker] Browser:36 - *****URL Loading starting
+2020-01-26 14:36:18,948  WARN [Test worker] Browser:44 - *****Warning message****
+2020-01-26 14:36:18,950 ERROR [Test worker] Browser:45 - ******Error is There****
+2020-01-26 14:36:18,950 DEBUG [Test worker] Browser:47 - ****Debugginfo******
+2020-01-26 14:36:23,955  INFO [Test worker] Browser:13 - Customer Details Test Start
+2020-01-26 14:37:06,793  INFO [Test worker] Browser:57 - ****Driver Close******
